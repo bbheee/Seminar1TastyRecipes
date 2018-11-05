@@ -1,0 +1,95 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image: url(background.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position: center;       
+}
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: gray;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+}
+.main-nav li.active a
+{
+    border: 1px solid gray;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid gray;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.text
+{
+    position: absolute;
+    margin-top: 275px;
+    width: 100%;
+    font-size: 50px;
+    line-height: 1.2;
+    
+}
+
+h1
+{
+    color: lightgray;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+
+.button
+{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 41vw;
+}
+
+.btn
+{
+    border: 1px solid gray;
+    padding: 10px 30px;
+    color: gray;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        background-color: lightcoral;
+    }
+}
+
+
+
+
+
+
+
+

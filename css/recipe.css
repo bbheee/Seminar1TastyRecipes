@@ -1,0 +1,36 @@
+{
+    margin:center;
+    padding:0;
+}
+body
+{
+    font-family: monospace;
+}
+
+/*.text
+{
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}*/
+main
+{
+   position: absolute;
+   top: 100px;
+   right: 5em; 
+   width: 350px;
+   height: 150px;
+   color: gray;
+   text-decoration: none;
+   padding: 5px 20px;
+   font-size: 15px;
+   line-height: 1.2;
+}
+.ingredients{
+    list-style-type: disc;
+}
+.steps{
+    list-style-type: decimal;
+}
+
