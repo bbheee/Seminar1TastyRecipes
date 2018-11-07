@@ -82,3 +82,44 @@ img{
     background: #1abc9c;
     color: white !important
 }
+
+@media only screen and (max-width: 600px) {
+    .month {
+        width: 75%;
+        padding: 5px;
+    }
+    
+    .weekdays {
+        width: 75%;
+        padding: 5px;
+    }
+    
+    ul.days{
+        width: 75%;
+        padding: 5px;
+    }
+   
+}
+@media only screen and (min-width: 900px) {
+    .month {
+        width: 200%;
+        transform: translateX(-50%);
+        
+    }
+    
+    .weekdays {
+        width: 200%;
+        transform: translateX(-50%);
+    }
+    
+    ul.days{
+        width: 200%;
+        transform: translateX(-50%);
+    }
+    
+    img{
+        max-width: 70px;
+        transform: translateX(20%);
+    }
+   
+}

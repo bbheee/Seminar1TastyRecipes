@@ -124,9 +124,22 @@ h1
     }
 }
 
-@media only screen and (min-width: 700px) {
-    header {
+@media only screen and (min-width: 900px) {
+    
+    header{
         background-color: lightblue;
+    }
+    
+    header h1 {
+        font-size: 80px;
+    }
+    
+    .main-nav>li>a{
+        font-size:30px;
+    }
+    
+    .btn{
+        font-size: 20px;
     }
 }
 

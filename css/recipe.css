@@ -34,3 +34,22 @@ main
     list-style-type: decimal;
 }
 
+@media only screen and (max-width: 600px) {
+    main{
+        font-size: 8px;
+        line-height: 1.2;
+        transform: translateX(21.5vh);
+
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    
+    main{
+        font-size: 25px;
+        line-height: 1.2;
+        transform: translateX(20%);
+
+    }
+}
+
